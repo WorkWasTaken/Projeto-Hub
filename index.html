@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilo/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+<title>To-do list</title>
+
+<body>
+    <header>
+        <h1>To-do list</h1>
+    </header>
+    <main>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Text</th>
+      <th scope="done">Done</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Test</td>
+      <td>Testing!</td>
+      <td>Yes</td>
+    </tr>
+  </tbody>
+</table>
+        <form action="">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Name" required>
+                <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating">
+                <textarea type="text" class="form-control" id="floatingInput" required></textarea>
+                <label for="floatingPassword">Text whatever you want here!</label>
+            </div>
+            <button type="submit">Submit!</button>
+        </form>
+    </main>
+
+
+    <footer>Project made by: WorkWasTaken.</footer>
+</body>
+
+</html>

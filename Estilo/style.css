@@ -1,0 +1,10 @@
+body {background-color: azure}
+header {border: 1px;
+        background-color: cadetblue;}
+h1 {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+label {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+footer {text-align: center;
+        background-color: cadetblue;}
+.formGrid {display: grid;
+           grid-template-columns: 1fr 1fr;
+           gap: 20px;}
