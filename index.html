@@ -22,26 +22,21 @@
   <thead>
     <tr>
       <th scope="col">Name</th>
-      <th scope="col">Text</th>
-      <th scope="done">Done</th>
+      <th scope="col">Description</th>
+      <th scope="col">Exclude</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Test</td>
-      <td>Testing!</td>
-      <td>Yes</td>
-    </tr>
+  <tbody id="table">
   </tbody>
 </table>
-        <form action="">
+        <form action="" id="my_habits">
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Name" required>
-                <label for="floatingInput">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name" required>
+                <label for="name">Name</label>
             </div>
-            <div class="form-floating">
-                <textarea type="text" class="form-control" id="floatingInput" required></textarea>
-                <label for="floatingPassword">Text whatever you want here!</label>
+            <div class="form-floating" id="my_habits">
+                <textarea type="text" class="form-control" id="number" required></textarea>
+                <label for="number">Text whatever you want here!</label>
             </div>
             <button type="submit">Submit!</button>
         </form>
@@ -49,6 +44,7 @@
 
 
     <footer>Project made by: WorkWasTaken.</footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
